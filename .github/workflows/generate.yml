@@ -55,7 +55,7 @@ jobs:
           codename: ${{ env.CODENAME }}
           components: ${{ env.COMPONENTS }}
           architectures: ${{ env.ARCHITECTURES }}
-          import-from-repo-url: "https://archiemeng.github.io/custom-debs"
+          import-from-repo-url: "https://iiotlook.github.io/custom-debs"
 
 
       - name: Upload Pages artifact
